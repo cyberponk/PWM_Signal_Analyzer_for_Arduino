@@ -15,10 +15,10 @@
   	Measures voltage (assuming the correct voltage divider resistors are used)
   	Measures digital HIGH or LOW signal
 
- Uses LCD Keypad Shield with LCD 1602 display and buttons.
- Use Up/Down buttons to switch between different information pages
- Use Select button to pause reading and freeze information on screen
- Use left/right buttons to +- pwm output on PWM output pin
+	Uses LCD Keypad Shield with LCD 1602 display and buttons.
+ 	Up/Down buttons to switch between different information pages
+	Select button to pause reading and freeze information on screen
+	Left/Right buttons to +- pwm output on PWM output pin
 
  Pins:
 
