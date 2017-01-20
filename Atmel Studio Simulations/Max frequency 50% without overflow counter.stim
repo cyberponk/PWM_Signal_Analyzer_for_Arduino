@@ -1,0 +1,23 @@
+// Better to use 100 or less for PULSE_CAPTURE_PERIOD_MS and INFO_UPDATE_PERIOD_MS
+// Also, disable WelcomeMessage()
+//
+// high pulse: 	4,75 us
+// low pulse: 	4,75 us
+// pulse total: 9,50 us
+// PWM frequency: 105263,16 Hz
+// PWM Duty: 	50 %
+// PWM Value: 	127,5
+//
+// wait for program to start reading pulses
+#573000
+// pulse
+$repeat 10000000
+	PIND |= 0b100
+	#76
+	PIND ^= 0b100
+	#76
+	PIND ^= 0b100
+	#76
+	PIND ^= 0b100
+    #1800000
+$endrep
