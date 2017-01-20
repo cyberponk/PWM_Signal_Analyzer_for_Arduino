@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Object</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>7.0</ProjectVersion>
+    <ProjectGuid>{fb176c08-5974-4926-b885-7f7117f6a4d9}</ProjectGuid>
+    <avrdeviceseries>none</avrdeviceseries>
+    <avrdevice>ATmega328P</avrdevice>
+    <avrtool>com.atmel.avrdbg.tool.simulator</avrtool>
+    <OutputFileName>PWM_Signal_Analyzer_for_Arduino.ino</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>N:\Eletronica\Arduino\Meus Projetos\PWM_Signal_Analyzer_for_Arduino\Atmel Studio Project\Release</OutputDirectory>
+    <ObjectProjectType>True</ObjectProjectType>
+    <MD5HashValue>377CF6DFA9D164FFCF8CAD0C7D5E47FD</MD5HashValue>
+    <RootFolderCreationPattern>OptimizedRoot</RootFolderCreationPattern>
+    <IsObjLinkFile>True</IsObjLinkFile>
+    <UseGdb>false</UseGdb>
+    <UseGdbCustomPath>false</UseGdbCustomPath>
+    <GdbCustomPath>
+    </GdbCustomPath>
+    <com_atmel_avrdbg_tool_simulator>
+      <ToolOptions>
+        <InterfaceProperties>
+        </InterfaceProperties>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.simulator</ToolType>
+      <ToolNumber>
+      </ToolNumber>
+      <ToolName>Simulator</ToolName>
+    </com_atmel_avrdbg_tool_simulator>
+    <AsfFrameworkConfig>
+      <framework-data xmlns="">
+  <options />
+  <configurations />
+  <files />
+  <documentation help="" />
+  <offline-documentation help="" />
+  <dependencies>
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.33.0" />
+  </dependencies>
+</framework-data>
+    </AsfFrameworkConfig>
+    <preserveEEPROM>true</preserveEEPROM>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <CacheFlash>true</CacheFlash>
+    <BootSegment>2</BootSegment>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress />
+    <UncachedRange />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  </PropertyGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\Vs\FakeObjProjects.targets" />
+  <ItemGroup>
+    <Compile Include="C:\Program Files (x86)\Arduino\libraries\LiquidCrystal\src\LiquidCrystal.cpp">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Program Files (x86)\Arduino\libraries\LiquidCrystal\src\LiquidCrystal.cpp</FilePathFromObjectFile>
+      <AliasFilePath>C:\Program Files (x86)\Arduino\libraries\LiquidCrystal\src\LiquidCrystal.cpp</AliasFilePath>
+      <Link>LiquidCrystal.cpp</Link>
+    </Compile>
+    <Compile Include="C:\Program Files (x86)\Arduino\libraries\LiquidCrystal\src\LiquidCrystal.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Program Files (x86)\Arduino\libraries\LiquidCrystal\src\LiquidCrystal.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Program Files (x86)\Arduino\libraries\LiquidCrystal\src\LiquidCrystal.h</AliasFilePath>
+      <Link>LiquidCrystal.h</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\Temp\VMBuilds\PWM_Signal_Analyzer_for_Arduino\uno\PWM_Signal_Analyzer_for_Arduino.cpp">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\Temp\VMBuilds\PWM_Signal_Analyzer_for_Arduino\uno\PWM_Signal_Analyzer_for_Arduino.cpp</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\Temp\VMBuilds\PWM_Signal_Analyzer_for_Arduino\uno\PWM_Signal_Analyzer_for_Arduino.cpp</AliasFilePath>
+      <Link>Temp\VMBuilds\PWM_Signal_Analyzer_for_Arduino\uno\PWM_Signal_Analyzer_for_Arduino.cpp</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial.cpp">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial.cpp</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial.cpp</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial.cpp</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial.h</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial.h</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial0.cpp">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial0.cpp</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial0.cpp</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial0.cpp</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial_private.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial_private.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial_private.h</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\HardwareSerial_private.h</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Print.cpp">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Print.cpp</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Print.cpp</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Print.cpp</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Print.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Print.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Print.h</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Print.h</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Stream.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Stream.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Stream.h</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\Stream.h</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\abi.cpp">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\abi.cpp</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\abi.cpp</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\abi.cpp</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\arduino.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\arduino.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\arduino.h</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\arduino.h</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\main.cpp">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\main.cpp</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\main.cpp</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\main.cpp</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring.c">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring.c</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring.c</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring.c</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring_analog.c">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring_analog.c</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring_analog.c</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring_analog.c</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring_digital.c">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring_digital.c</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring_digital.c</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino\wiring_digital.c</Link>
+    </Compile>
+    <Compile Include="C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\variants\standard\pins_arduino.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\variants\standard\pins_arduino.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\ni\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\variants\standard\pins_arduino.h</AliasFilePath>
+      <Link>arduino15\packages\arduino\hardware\avr\1.6.17\variants\standard\pins_arduino.h</Link>
+    </Compile>
+    <Compile Include="N:\Eletronica\Arduino\Projetos\libraries\TaskScheduler\src\TaskScheduler.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>N:\Eletronica\Arduino\Projetos\libraries\TaskScheduler\src\TaskScheduler.h</FilePathFromObjectFile>
+      <AliasFilePath>N:\Eletronica\Arduino\Projetos\libraries\TaskScheduler\src\TaskScheduler.h</AliasFilePath>
+      <Link>TaskScheduler.h</Link>
+    </Compile>
+    <Compile Include="c:\users\ni\appdata\local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2\avr\include\stdint.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>c:\users\ni\appdata\local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2\avr\include\stdint.h</FilePathFromObjectFile>
+      <AliasFilePath>c:\users\ni\appdata\local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2\avr\include\stdint.h</AliasFilePath>
+      <Link>avr\include\stdint.h</Link>
+    </Compile>
+    <Compile Include="c:\users\ni\appdata\local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2\avr\include\stdlib.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>c:\users\ni\appdata\local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2\avr\include\stdlib.h</FilePathFromObjectFile>
+      <AliasFilePath>c:\users\ni\appdata\local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2\avr\include\stdlib.h</AliasFilePath>
+      <Link>avr\include\stdlib.h</Link>
+    </Compile>
+    <Compile Include="c:\users\ni\appdata\local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2\lib\gcc\avr\4.9.2\include\stddef.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>c:\users\ni\appdata\local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2\lib\gcc\avr\4.9.2\include\stddef.h</FilePathFromObjectFile>
+      <AliasFilePath>c:\users\ni\appdata\local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2\lib\gcc\avr\4.9.2\include\stddef.h</AliasFilePath>
+      <Link>lib\gcc\avr\4.9.2\include\stddef.h</Link>
+    </Compile>
+    <Folder Include="arduino15\" />
+    <Folder Include="arduino15\packages\" />
+    <Folder Include="arduino15\packages\arduino\" />
+    <Folder Include="arduino15\packages\arduino\hardware\" />
+    <Folder Include="arduino15\packages\arduino\hardware\avr\" />
+    <Folder Include="arduino15\packages\arduino\hardware\avr\1.6.17\" />
+    <Folder Include="arduino15\packages\arduino\hardware\avr\1.6.17\cores\" />
+    <Folder Include="arduino15\packages\arduino\hardware\avr\1.6.17\variants\" />
+    <Folder Include="avr\" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\gcc\" />
+    <Folder Include="lib\gcc\avr\" />
+    <Folder Include="lib\gcc\avr\4.9.2\" />
+    <Folder Include="Temp\" />
+    <Folder Include="Temp\VMBuilds\" />
+    <Folder Include="Temp\VMBuilds\PWM_Signal_Analyzer_for_Arduino\" />
+    <Folder Include="Temp\VMBuilds\PWM_Signal_Analyzer_for_Arduino\uno" />
+    <Folder Include="arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino" />
+    <Folder Include="arduino15\packages\arduino\hardware\avr\1.6.17\variants\standard" />
+    <Folder Include="avr\include" />
+    <Folder Include="lib\gcc\avr\4.9.2\include" />
+  </ItemGroup>
+</Project>

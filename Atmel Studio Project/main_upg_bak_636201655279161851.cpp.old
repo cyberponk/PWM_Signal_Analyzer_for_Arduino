@@ -1,0 +1,18 @@
+/*
+ * Signal_Inspector.cpp
+ *
+ * Created: 16/01/2017 12:12:00
+ * Author : ni
+ */ 
+
+#include <avr/io.h>
+
+
+int main(void)
+{
+    /* Replace with your application code */
+    while (1) 
+    {
+    }
+}
+
