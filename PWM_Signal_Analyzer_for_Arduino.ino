@@ -134,7 +134,7 @@ void setup() {
 	pinMode(PIN_ANALOG_READ, INPUT);
 	pinMode(POUT_PWM_WRITE, OUTPUT);
 
-	//WelcomeMessage();
+	WelcomeMessage();
 
 	// Setup Timer1 for precise timing
 	TCCR1A = 0; // No comparator, no Waveform generator
